@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.nav-container {
+  width: 550px;
+  height: 91px;
+  background-color: #21222a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-container {
+  background-color: #33373e;
+  width: 550px;
+  height: 310px;
+  background-image: url(./images/big_logo.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+.facts-container > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
+}
+
+li {
+  font-family: "Inter";
+  color: white;
+  padding-bottom: 10px;
+}
