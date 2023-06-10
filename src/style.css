@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background-color: #1c1c1c;
+}
+
+.parent-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card-container {
+  width: 230px;
+  background-color: #1a1b21;
+  height: 300px;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+}
